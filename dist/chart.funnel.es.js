@@ -9118,7 +9118,7 @@ const Sh = [
 }, Symbol.toStringTag, { value: "Module" }));
 function Dh(i) {
   var t = i.defaults.global;
-  console.log(t, "globalOpts"), t.elements.trapezium = {
+  console.log(i, "chart"), t.elements.trapezium = {
     backgroundColor: t.defaultColor,
     borderWidth: 0,
     borderColor: t.defaultColor,

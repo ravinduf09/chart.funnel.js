@@ -12,8 +12,8 @@ export default function(Chart) {
 	// var helpers = Chart.helpers,
 	var	globalOpts = Chart.defaults.global;
 
-	console.log(globalOpts, "globalOpts");
-	
+	console.log(Chart, "chart");
+
 	globalOpts.elements.trapezium = {
 		backgroundColor: globalOpts.defaultColor,
 		borderWidth: 0,
