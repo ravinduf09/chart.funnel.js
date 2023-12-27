@@ -22,7 +22,8 @@ import * as  Chart from 'chart.js';
 import elementTrapezium from './elements/element.trapezium';
 import controllerFunnel from './controllers/controller.funnel';
 
-elementTrapezium(Chart)
-controllerFunnel(Chart)
+let chart = Chart;
+chart = elementTrapezium(chart)
+chart = controllerFunnel(chart)
 
-export default Chart;
+export default chart;
