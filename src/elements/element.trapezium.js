@@ -10,7 +10,7 @@
 
 export default function(Chart) {
 	// var helpers = Chart.helpers,
-	var	globalOpts = Chart.defaults.global;
+	var	globalOpts = Chart.defaults;
 
 	console.log(Chart, "chart");
 

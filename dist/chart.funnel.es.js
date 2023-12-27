@@ -9117,7 +9117,7 @@ const Sh = [
   scales: Io
 }, Symbol.toStringTag, { value: "Module" }));
 function Dh(i) {
-  var t = i.defaults.global;
+  var t = i.defaults;
   console.log(i, "chart"), t.elements.trapezium = {
     backgroundColor: t.defaultColor,
     borderWidth: 0,
