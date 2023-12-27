@@ -24,9 +24,8 @@
  *
  */
 
-"use strict";
-
-module.exports = function(Chart) {
+// "use strict";
+export default function (Chart) {
 	var helpers = Chart.helpers;
 
 	Chart.defaults.funnel = {
