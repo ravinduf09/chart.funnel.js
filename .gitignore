@@ -1,16 +1,1 @@
-
-.DS_Store
-Chart.Funnel.js.iml
-
-node_modules/*
-custom/*
-
-docs/index.md
-
-bower_components/
-
-coverage/*
-.idea
-nbproject/*
-
-npm-debug.log
+node_modules
